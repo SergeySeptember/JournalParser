@@ -187,7 +187,7 @@ namespace JournalParserCore
             label.Text = "Done";
         }
 
-        // Косметика
+        #region Appearance
         private void PictureBoxCloseClick(object sender, EventArgs e) => Application.Exit();
 
         private void LinkToGitClick(object sender, EventArgs e)
@@ -214,4 +214,5 @@ namespace JournalParserCore
 
         private void LabelLogoMouseDown(object sender, MouseEventArgs e) => MoveForm();
     }
+    #endregion
 }
